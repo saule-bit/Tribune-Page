@@ -1,0 +1,148 @@
+*,*:before, *::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.body {
+    padding: 200px 350px 350px 350px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 1.5;
+    background-color: lightgray; 
+    display: flex; 
+    min-height: 100%;
+    width: 1400px;
+    justify-content: center;
+    position: relative;
+    text-align: justify; 
+}
+
+#main {
+    width: 1440px;
+    }
+
+#img-div {
+    max-height:2000px; 
+    background-color: #EFEFEF;
+    padding: 60px 60px 30px 60px;
+    margin: 0 auto;
+    display: grid;
+    width: 1300px;
+    text-align: center;
+    }   
+
+#image {
+    width: 1250px;
+    max-width: 100%; <!-- will keep the shrink as the width of the page shrinks  -->
+    height: auto;
+    display: block; <!-- have to display it as block, means that only the image can be on that line -->
+    margin-left: auto; <!-- center the image -->
+    margin-right: auto; 
+    box-shadow: 5px 10px 90px #0a0a0a; 
+    }
+
+#img-caption {
+    font-size: 40px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#title {
+    font-size: 90px; 
+    color: rgb(19 18 19);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;  
+}
+
+h1 {
+    font-size: 100px; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+h2 {
+    font-size: 70px; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  
+    font-weight: bold; 
+    text-align: left;
+}
+
+h3 {
+    font-size: 70px; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(7, 0, 7);
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 0.4em 0;
+}
+
+.header {
+    font-size: 60px; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  
+    font-weight: bold; 
+    text-align: center;  
+}
+
+.heading {
+    font-size: 70px; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(7, 0, 7);
+}
+
+.list {
+    list-style-position: inside;
+}
+
+sup {
+    vertical-align: sup;
+    font-size: smaller;
+} 
+
+.text-tribute_link {
+    font-weight: bold; 
+}
+
+#tribute-link {
+    color: blue;
+    font-weight: bold; 
+}
+
+#tribute-link:hover {
+    color: rgb(226, 19, 19); 
+}
+
+@media (min-width: 767px){
+    #image{
+         margin: 0px auto;  
+    }
+}
+        
+@media (min-width: 992px){
+    #image{
+       margin: 0px auto;  
+    }
+}
+
+@media (min-width: 1200px){
+    #image{
+        margin: 0px auto;  
+    }
+}
