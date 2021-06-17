@@ -120,13 +120,17 @@ sup {
     font-weight: bold; 
 }
 
-#tribute-link {
+#tribute-link:link {
     color: blue;
     font-weight: bold; 
 }
 
+tribute-link:visited {
+    color: black; 
+}
+
 #tribute-link:hover {
-    color: rgb(226, 19, 19); 
+    color: red; 
 }
 
 @media (min-width: 767px){
